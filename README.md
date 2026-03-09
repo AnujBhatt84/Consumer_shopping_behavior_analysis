@@ -83,8 +83,8 @@ These visualizations help stakeholders quickly understand business insights.
 
 1. Download the dataset from this repository.
 2. Run the Python scripts/notebooks to perform data cleaning and EDA.
-3. Execute SQL queries from the **sql_queries** folder.
-4. Open the **Power BI dashboard (.pbix)** to explore interactive visualizations.
+3. Execute SQL queries from the **analysis_queries** folder.
+4. Open the **Customer Behavior dashboard (.pbix)** to explore interactive visualizations.
 5. Review the presentation slides for summarized insights.
 
 ---
