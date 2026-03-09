@@ -45,7 +45,9 @@ Q6--> which 5 products have the highest percent of purchases with discount appli
  order by discount_rate desc
  limit 5;
 
-Q7 -->
+Q7 -->Segment customers into New, Returning, and Loyal based on their total 
+-- number of previous purchases, and show the count of each segment. 
+
 
  with customer_type as(
  select customer_id, previous_purchases,
@@ -89,4 +91,5 @@ Q10-->  wht is the revenue contribution of each age group?
  SUM(purchase_amount) as tottal_revenue
  from customer
  group by age_group
+
  order by tottal_revenue desc;
